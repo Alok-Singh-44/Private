@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px dashed black;
+}
+
+.flex{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+} */
+
+/* Home Section  */
+
+.container{
+    position: fixed;
+    margin-top: 40px;
+    justify-content: space-between;
+    border: 1px dashed black;
+    
+}
+
+.options{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.tabs{
+    text-decoration: none;
+    color: black;
+}
+
+.tabs:hover{
+    color: rgb(255, 0, 0);
+    text-decoration-line: underline;
+}
+
+.hero , .about{
+    border: 1px dashed black;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text{
+    width: 600px;
+    line-height: 1.5rem;
+}
+
+* Skills section */
+
+.Skill-box{
+    justify-content: center;
+    display: block;
+}
+
+.Skills{
+    display: flex;
+    justify-content: center;
+}
+
+/* Projects Section  */
+.pro{
+    display: flex;
+    display: inline-block;
+    height: 300px;
+}
+
